@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,7 +9,7 @@
 }
 
 .background {
-    background-image: url(img/FL2.jpg) ;
+    background-image: url(img/FL2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,7 +18,7 @@
     height: 100vh;
 }
 
-header{
+header {
     display: flex;
     justify-content: space-around;
     padding-top: 1rem;
@@ -43,30 +43,31 @@ header{
     display: flex;
     gap: 3rem;
 }
-.cabecalho-link a{
+
+.cabecalho-link a {
     color: #111;
     font-weight: 700;
     transition: 0.3s;
 }
 
-.cabecalho-link a:hover{
+.cabecalho-link a:hover {
 
     color: #c8815f;
 }
 
-.icon span{
+.icon span {
     font-size: 2rem;
     cursor: pointer;
 }
 
-.icon span:hover{
+.icon span:hover {
     color: #c8815f;
 }
 
-.Meio{
-  padding: 7rem 0 0 8.5rem;
-  line-height: 4rem;
-  color: #fff;
+.Meio {
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+    color: #fff;
 }
 
 .Meio h1 {
@@ -80,11 +81,11 @@ header{
     border-radius: 5px;
     color: #fff;
     font-size: 1rem;
-    cursor:pointer;
+    cursor: pointer;
     transition: 0.3s;
 }
 
-.Meio button:hover{
+.Meio button:hover {
     background-color: #111;
     transform: scaleY(1.2);
 }
@@ -113,7 +114,7 @@ section h1 {
     transition: 0.35s ease;
 }
 
-.cards img:hover{
+.cards img:hover {
     transform: scale(0.9) translateY(5px);
     cursor: pointer;
 }
@@ -130,7 +131,7 @@ section h1 {
 
 .text-cta {
     padding-left: 5rem;
-    
+
 }
 
 .text-cta h6 {
@@ -164,11 +165,11 @@ section h1 {
     border-radius: 5px;
     color: #fff;
     font-size: 1rem;
-    cursor:pointer;
+    cursor: pointer;
     transition: 0.3s;
 }
 
-.btn a:hover{
+.btn a:hover {
     background-color: #111;
     transform: scaleY(1.2);
 }
@@ -208,8 +209,3 @@ section h1 {
     background-color: #111;
     color: #fff;
 }
-
-
-
-
-
